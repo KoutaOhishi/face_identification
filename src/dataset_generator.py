@@ -9,8 +9,8 @@ REPOSITORY_PATH = str("/".join(os.path.abspath(__file__).split("/")[0:-2]))
 CASCADE_PATH = REPOSITORY_PATH + "/model/haarcascade_frontalface_alt.xml"
 MODEL_PATH = REPOSITORY_PATH + "/model/shape_predictor_68_face_landmarks.dat"
 
-SAVE_FILE_DIR = REPOSITORY_PATH + "/dataset/"
-SAVE_FILE_NAME = "test.csv"
+SAVE_FILE_DIR = REPOSITORY_PATH + "/dataset/lab_members/"
+SAVE_FILE_NAME = "tsurue.csv"
 
 DATA_NUM = 100
 
